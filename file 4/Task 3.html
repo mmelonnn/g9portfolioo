@@ -1,0 +1,69 @@
+<html>
+    <head> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="stylesheet" href="./master.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+<body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">^^</button>
+
+    <div class="topnav">
+        <a href="./Home.html">Home</a>
+        <a href="./Task 1 (Home).html">Task 1</a>
+        <a href="./Task 2.html">Task 2</a>
+        <a class="active" href="./Task 3.html">Task 3</a>
+        <div class="search-container">
+            <form action="/action_page.php">
+              <input type="text" placeholder="Search.. (non functional)" name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+    </div>
+<h1> Task 3: Style a List</h1>
+    <ul class="a">
+        <li class="a">This list has a marker color of green</li>
+        <li class="a">The list items have background colors of light blue</li>
+        <li class="a">Each list item has a 5-pixel margin at the top and bottom</li>
+        <li class="a">The list items have font sizes of 20 pixels</li>
+        <li class="a">This list has a padding of 10 pixels</li>
+    </ul>
+    <section>
+       <pre><p style="font-size:50px;">ul.a {
+        list-style:none;
+        background-color: lightblue;
+        padding: 10px;
+        font-size: 20px;
+        margin:4px;
+    }
+    
+    ul li::before {
+        content: "\2022";
+        color: green;
+        font-weight: bold;
+        display: inline-block; 
+        width: 1em;
+        margin-left: 1em;
+      }
+    
+    li.a {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        color:green;
+    }</p> </pre>
+    </section>
+    <section>
+        <h3> <a class="yes" href="./Task 1 (Home).html" >Task 1: Style a Heading</a></h1> <br>
+    </section>
+    <section>
+        <h3> <a class="yes" href="./Task 2.html" >Task 2: Format a Paragraph</a></h1> <br>
+    </section>
+    <section class="active">
+        <h3 class="active"> <a class="yes active" href="./Task 3.html" >Task 3: Style a List</a></h1> <br>
+    </section>
+
+
+<script src="top.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+.dark-mode {
+    background-color: #393646;
+    color: #F4EEE0;
+  }
+
+.dark-mode #theme {
+    background-color:#4F4557;
+    color:#F4EEE0;
+    border-color:#FFE0B5;
+    line-height:1.5;
+}
+
+.dark-mode .menu{
+    color:#FFF2D7;
+}
+
+.dark-mode #projects:hover {
+    color:rgb(230, 198, 230);
+}
+
+.dark-mode .frame {
+    border-color:#F4EEE0;
+}
+
+.dark-mode .text a {
+    color:#FFE0B5;
+}
+
+.dark-mode .contacts h1 {
+    color:#F8C794;
+}
+
+.dark-mode .contacts a {
+    color:#FFE0B5;
+}

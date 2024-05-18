@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Style Links -->
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./darkMode styles.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,400i,600,600i,700" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="./image-removebg-preview.png">
+    <title>Rich Deck A. Batucan</title>
+</head>
+<body lang="en">
+    <div id="cont2">
+        <!-- Menu -->
+        <div class="menu" id="menuicon"><i class="fa-solid fa-bars" onclick="menuActive()"></i></div>
+        <!-- Items --> 
+        <ol id="menu" class="items">
+            <li class="item"><a href="./index.html"><i class="fa-solid fa-house" style="font-size:5vh;"></i><p class="desc">Home</p></a></li>
+            <li class="item"><a href="./aboutme.html"><i class="fa-solid fa-user" style="font-size:5vh;"></i><p class="desc">Personal</p></a></li>
+            <li class="item activePage"><a href="./contact.html"><i class="fa-solid fa-compass" style="font-size:5vh;"></i><p class="desc">Contacts</p></a></li>
+            <li class="item"><a id="projects" onclick="projectsActive()" style="cursor:pointer;"><i class="fa-solid fa-file" style="font-size:5vh;"></i></i><p class="desc">Projects</p></a></li>
+            <li class="item"><a target="_blank" href="https://github.com/mmelonnn/g9portfolioo"><i class="fa-brands fa-github" style="font-size:5vh;"></i><p class="desc">Github</p></a></li>
+        </ol>
+
+        <!-- Dark Mode -->
+        <button onclick="darkMode()" id="theme" class="text-uppercase poppins-font">D<br>A<br>R<br>K</button>
+
+        <!-- Slide In Portfolio -->
+        <div class="slide" id="project">
+            <div onclick="window.open('./file 2/Compilation of all websites.html', '_blank');" class="slidein1"></div>
+            <div onclick="window.open('./file 3/Home.html', '_blank');" class="slidein2"></div>
+            <div onclick="window.open('./file 4/Library.html', '_blank');" class="slidein3"></div>
+            <div onclick="window.open('https://mmelonnn.github.io/portfolioBatucan.github.io/ka%20sir.html', '_blank');" class="slidein4"></div>
+        </div>
+    </div>
+    <div class="container" id="container">
+        <div class="contacts" id="personal">
+            <h1><a href="./aboutme.html" class="texta"><i class="fa-solid fa-arrow-left"></i> Contacts</a></h1>
+            <div class="side1">
+            <h2>
+                Phone : <br>
+                Email :  <br>
+                Facebook: <br>
+                <a href="./index.html"><i class="fa-solid fa-arrow-left" style="opacity:0.8 !important;"></i> Back to Home</a></h2></div>
+            <div class="side2">
+            <h2>
+                0969 520 ----<br>
+                richdeckbatucan11@gmail.com<br> 
+                <a href="https://www.facebook.com/rich.batucan.33" target=”_blank” style="color:#4267B2;opacity:1;" class="nohover"><i class="fa-solid fa-arrow-up-right-from-square"></i> Rich Deck Batucan</a><br>
+                <a onclick="projectsActive()" style="cursor:pointer;opacity:0.8">Projects <i class="fa-solid fa-arrow-right"></i></a>
+            </h2></div>
+        </div>
+    
+    
+        <!-- Scripts -->
+        <script src="./script.js"></script>
+        <script src="https://kit.fontawesome.com/5965a2f796.js" crossorigin="anonymous"></script>
+    </div>
+    </body>
+    </html>
